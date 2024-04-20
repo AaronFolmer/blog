@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #141414;
+  padding-bottom: 120px;
+  line-height: 2rem;
+}
+
+:root a:hover {
+  color: #ec41b5;
+  cursor: pointer;
+}
+
+:root a:active {
+  background-color: #35182c;
+}
+
+:root a::selection,
+h1::selection,
+h2::selection,
+p::selection,
+span::selection {
+  background-color: #35182c;
+}
+
+:root h1 {
+  font-size: 18pt;
+}
+
+:root h2 {
+  font-size: 16pt;
+}
+
+:root h3 {
+  font-size: 14pt;
+}
+
+:root p {
+  font-size: 18px;
+}
+
+:root hr {
+  background-color: #282828;
+  border: none;
+  height: 1px;
+}
