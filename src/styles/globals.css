@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 :root {
-  background-color: #141414;
-  padding-bottom: 120px;
   line-height: 2rem;
 }
 

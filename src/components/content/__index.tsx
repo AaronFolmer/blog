@@ -18,7 +18,7 @@ export function Content(props: ContentProps): JSX.Element {
       <div className="py-5">
         <h2 className="text-subtitle">{props.subtitle}</h2>
       </div>
-      <h1 className="text-title w-fit hover:text-[#ec41b5] hover:underline underline-offset-4">
+      <h1 className="text-title-200 dark:text-title-100 w-fit hover:text-[#ec41b5] hover:underline underline-offset-4">
         <Link href={props.link}>{props.title}</Link>
       </h1>
       <div className="flex flex-wrap items-center gap-3 py-3">
