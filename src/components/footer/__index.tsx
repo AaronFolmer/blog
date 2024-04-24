@@ -8,7 +8,9 @@ export function Footer() {
   return (
     <div className="flex flex-col gap-5">
       <div>
-        <h2 className="text-subtitle">Enter in contact with me.</h2>
+        <h2 className="text-subtitle-white dark:text-subtitle-dark">
+          Enter in contact with me.
+        </h2>
         <span className="text-lg text-title">
           Talk to me via email, Twitter, BlueSky and other options!
         </span>

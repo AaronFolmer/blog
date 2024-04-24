@@ -4,7 +4,7 @@ export function Topics() {
   return (
     <section>
       <div className="py-5">
-        <h2 className="text-subtitle">Topics</h2>
+        <h2 className="text-subtitle-white dark:text-subtitle-dark">Topics</h2>
       </div>
       <div>
         <div className="w-full">
@@ -12,7 +12,7 @@ export function Topics() {
             <div>
               <Link
                 href="/topics/books"
-                className="text-title-200 dark:text-title-100 underline underline-offset-4"
+                className="text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 books
               </Link>
@@ -20,7 +20,7 @@ export function Topics() {
             <div>
               <Link
                 href="/topics/design"
-                className="text-title-200 dark:text-title-100 underline underline-offset-4"
+                className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 design
               </Link>
@@ -28,7 +28,7 @@ export function Topics() {
             <div>
               <Link
                 href="/topics/habits"
-                className="text-title-200 dark:text-title-100 underline underline-offset-4"
+                className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 habits
               </Link>
@@ -36,7 +36,7 @@ export function Topics() {
             <div>
               <Link
                 href="/topics/hobbies"
-                className="text-title-200 dark:text-title-100 underline underline-offset-4"
+                className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 hobbies
               </Link>
@@ -44,7 +44,7 @@ export function Topics() {
             <div>
               <Link
                 href="/topics/projects"
-                className="text-title-200 dark:text-title-100 underline underline-offset-4"
+                className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 projects
               </Link>
@@ -52,7 +52,7 @@ export function Topics() {
             <div>
               <Link
                 href="/topics/learning"
-                className="text-title-200 dark:text-title-100 underline underline-offset-4"
+                className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 learning
               </Link>

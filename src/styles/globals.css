@@ -6,12 +6,21 @@
   line-height: 2rem;
 }
 
-:root a:hover {
+:root .dark a:hover {
   color: #ec41b5;
   cursor: pointer;
 }
 
+:root a:hover {
+  color: #7ce172;
+  cursor: pointer;
+}
+
 :root a:active {
+  background-color: #7ce172;
+}
+
+:root .dark a:active {
   background-color: #35182c;
 }
 
@@ -20,6 +29,14 @@ h1::selection,
 h2::selection,
 p::selection,
 span::selection {
+  background-color: #7ce172;
+}
+
+:root .dark a::selection,
+.dark h1::selection,
+.dark h2::selection,
+.dark p::selection,
+.dark span::selection {
   background-color: #35182c;
 }
 
