@@ -3,7 +3,7 @@ import { ListNow } from "@/components/lists/__index";
 
 export default function Now() {
   return (
-    <main>
+    <main className="h-screen">
       <section>
         <Content
           link="/home/now/"

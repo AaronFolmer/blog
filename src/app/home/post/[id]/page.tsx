@@ -15,7 +15,7 @@ export default function PostPage() {
   }
 
   return (
-    <main>
+    <main className="h-screen">
       <div className="flex flex-wrap">
         <Breadcrumbs id={post.id} title="Post" link={`${post.id}`} />
       </div>
@@ -27,6 +27,7 @@ export default function PostPage() {
         date={post.date}
         time={post.time}
       />
+      <hr className="mt-5"/>
     </main>
   );
 }

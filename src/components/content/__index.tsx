@@ -20,14 +20,17 @@ export function Content(props: ContentProps): JSX.Element {
           {props.subtitle}
         </h2>
       </div>
-      <h1 className="text-title-white dark:text-title-dark w-fit hover:text-[#7ce172] dark:hover:text-[#ec41b5] hover:underline underline-offset-4">
+      <h1 className="text-title-white dark:text-title-dark w-fit hover:text-[#7ce172] hover:underline underline-offset-4">
         <Link href={props.link}>{props.title}</Link>
       </h1>
       <div className="flex flex-wrap items-center gap-3 py-3">
         <p className="text-subtitle-white dark:text-subtitle-dark">
           {props.date}
         </p>
-        <Circle size={10} className="text-subtitle-white dark:text-subtitle-dark" />
+        <Circle
+          size={10}
+          className="text-subtitle-white dark:text-subtitle-dark"
+        />
         <p className="text-subtitle-white dark:text-subtitle-dark">
           {props.time}
         </p>

@@ -3,7 +3,7 @@ import { ListAbout } from "@/components/lists/__index";
 
 export default function AboutPage() {
   return (
-    <main className="flex flex-col gap-5">
+    <main className="flex flex-col gap-5 h-screen">
       <section>
         <Content
           subtitle="About me"

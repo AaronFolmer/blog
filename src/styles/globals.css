@@ -30,6 +30,7 @@ h2::selection,
 p::selection,
 span::selection {
   background-color: #7ce172;
+  color: black;
 }
 
 :root .dark a::selection,
@@ -38,6 +39,7 @@ span::selection {
 .dark p::selection,
 .dark span::selection {
   background-color: #35182c;
+  color: white;
 }
 
 :root h1 {

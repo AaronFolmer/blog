@@ -11,7 +11,7 @@ export function Topics() {
           <h2 className="flex flex-wrap gap-2">
             <div>
               <Link
-                href="/topics/books"
+                href="/home/topics/books"
                 className="text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 books
@@ -19,7 +19,7 @@ export function Topics() {
             </div>
             <div>
               <Link
-                href="/topics/design"
+                href="/home/topics/design"
                 className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 design
@@ -27,7 +27,7 @@ export function Topics() {
             </div>
             <div>
               <Link
-                href="/topics/habits"
+                href="/home/topics/habits"
                 className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 habits
@@ -35,7 +35,7 @@ export function Topics() {
             </div>
             <div>
               <Link
-                href="/topics/hobbies"
+                href="/home/topics/hobbies"
                 className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 hobbies
@@ -43,7 +43,7 @@ export function Topics() {
             </div>
             <div>
               <Link
-                href="/topics/projects"
+                href="/home/topics/projects"
                 className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 projects
@@ -51,7 +51,7 @@ export function Topics() {
             </div>
             <div>
               <Link
-                href="/topics/learning"
+                href="/home/topics/learning"
                 className=" text-title-white dark:text-title-dark underline underline-offset-4"
               >
                 learning

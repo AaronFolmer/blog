@@ -16,7 +16,6 @@ const config: Config = {
         black: "#000000",
       },
       primary: "#ec41b5",
-      secondary: "#35182c",
       transparent: "transparent",
       title: {
         dark: "#FFFFFF",
