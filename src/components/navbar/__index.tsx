@@ -5,7 +5,9 @@ import { useState } from "react";
 import Link from "next/link";
 
 export function Header() {
-  const [dark, setDark] = useState(document.body.classList.contains("dark"));
+  const [dark, setDark] = useState(
+    typeof document !== "undefined" && document.body.classList.contains("dark")
+  );
   return (
     <section>
       <div className="flex flex-wrap items-center justify-between py-10">
